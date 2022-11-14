@@ -7,7 +7,7 @@ body {
 	padding: 0;
 }
 
-.container {
+main {
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -27,7 +27,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	background-color: hsl(0, 0%, 100%);
-	padding: 18px 10px;
+	padding: 1.5rem 0.5rem;
 	border-radius: 5%;
 }
 
@@ -41,28 +41,28 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 16px;
-	margin-top: 12px;
+	padding: 1rem;
+	margin-top: 0.5rem;
 }
 
 .text-container h1 {
 	font-family: 'Outfit', sans-serif;
 	text-align: center;
-	font-size: 24px;
+	font-size: 1.5rem;
 	margin: 0;
-	padding: 6x;
+	padding: 0.5rem;
 }
 
 .text-container p {
 	font-family: 'Outfit', sans-serif;
 	text-align: center;
 	color: hsl(220, 15%, 55%);
-	font-size: 15px;
-	padding: 8px;
+	font-size: 1rem;
+	padding: 0.5rem;
 	padding-bottom: 0;
 }
 
-.attribution {
+footer {
 	position: absolute;
-	bottom: 10px;
+	bottom: 1rem;
 }
